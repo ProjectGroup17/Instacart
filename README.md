@@ -16,7 +16,8 @@
 	-	order_number: the order sequence number for this user (1 = first, n = nth)
 	-	order_dow: the day of the week the order was placed on
 	-	order_hour_of_day: the hour of the day the order was placed on
-	-	days_since_prior: days since the last order, capped at 30 (with NAs for order_number = 1)
+	-	days_since_prior: days since the last order, capped at 30
+										(with NAs for order_number = 1)
 
 2. 	products (50k rows):
 	-	product_id: product identifier
