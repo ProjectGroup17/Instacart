@@ -44,7 +44,6 @@ where SET is one of the four following evaluation sets (eval_set in orders):
 "prior": orders prior to that users most recent order (~3.2m orders)
 "train": training data supplied to participants (~131k orders)
 "test": test data reserved for machine learning competitions (~75k orders)
-The task is to predict which products a user will reorder in their next order. 
 ```
 
 # Task
