@@ -2,12 +2,12 @@
 
 ### Project group 17
 
-# The Task
+# Given
 ### The dataset is an open-source dataset provided by Instacart (source)
 
-##### This anonymized dataset contains a sample of over 3 million grocery orders from more than 200,000 Instacart users. For each user, we provide between 4 and 100 of their orders, with the sequence of products purchased in each order. We also provide the week and hour of day the order was placed, and a relative measure of time between orders.
+#### This anonymized dataset contains a sample of over 3 million grocery orders from more than 200,000 Instacart users. For each user, we provide between 4 and 100 of their orders, with the sequence of products purchased in each order. We also provide the week and hour of day the order was placed, and a relative measure of time between orders.
 
-##### Below is the full data schema (source)
+#### Below is the full data schema
 ```
 1.	orders (3.4m rows, 206k users):
 	-	order_id: order identifier
@@ -46,3 +46,7 @@ where SET is one of the four following evaluation sets (eval_set in orders):
 "test": test data reserved for machine learning competitions (~75k orders)
 The task is to predict which products a user will reorder in their next order. 
 ```
+
+# Task
+
+#### To predict which products a user will reorder in their next order. 
